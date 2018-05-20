@@ -28,6 +28,9 @@
   .navbar-toggler {
     font-size: 80%;
     padding: 0.8rem;
+    &:hover, &:focus, &:active {
+      background-color: $theme;
+    }
   }
 }
 @media(min-width:992px) {

@@ -92,10 +92,12 @@ section {
       #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         color: #fff; }
       #mainNav .navbar-nav li.nav-item a.nav-link.active {
-        color: #fee352; }
+        color: #f3d94f; }
   #mainNav .navbar-toggler {
     font-size: 80%;
     padding: 0.8rem; }
+    #mainNav .navbar-toggler:hover, #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:active {
+      background-color: #f3d94f; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -112,7 +114,7 @@ section {
     #mainNav .navbar-nav {
       margin-top: 0; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-      color: #fee352;
+      color: #f3d94f;
       background: #222; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         color: #fff;
@@ -244,9 +246,9 @@ form .row:first-child .floating-label-form-group {
   background-color: #1a1a1a; }
 
 a {
-  color: #fee352; }
+  color: #f3d94f; }
   a:focus, a:hover, a:active {
-    color: #fedb1f; }
+    color: #f0cf1f; }
 
 .btn {
   border-width: 2px; }
