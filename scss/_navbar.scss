@@ -32,6 +32,9 @@
       background-color: $theme;
     }
   }
+  .navbar-toggler[aria-expanded="true"] {
+    background-color: $theme;
+  }
 }
 @media(min-width:992px) {
   #mainNav {

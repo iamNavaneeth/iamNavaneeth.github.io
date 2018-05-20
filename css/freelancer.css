@@ -98,6 +98,8 @@ section {
     padding: 0.8rem; }
     #mainNav .navbar-toggler:hover, #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:active {
       background-color: #f3d94f; }
+  #mainNav .navbar-toggler[aria-expanded="true"] {
+    background-color: #f3d94f; }
 
 @media (min-width: 992px) {
   #mainNav {
