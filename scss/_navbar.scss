@@ -13,14 +13,14 @@
       a.nav-link {
         color: $white;
         &:hover {
-          color: $primary;
+          color: $gray-400;
         }
         &:active,
         &:focus {
           color: $white;
         }
         &.active {
-          color: $primary;
+          color: $theme;
         }
       }
     }
@@ -47,7 +47,7 @@
       margin-top: 0;
     }
     .navbar-nav > li.nav-item > a.nav-link.active {
-      color: $white;
+      color: $theme;
       background: $primary;
       &:active,
       &:focus,
