@@ -10,6 +10,7 @@ header.masthead {
     @include body-font;
   }
 }
+
 @media (min-width: 992px) {
   header.masthead {
     padding-top: calc(6rem + 106px);
